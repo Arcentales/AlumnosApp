@@ -16,10 +16,16 @@ app/src/main/java/com/carevalojesus/alumnosapp/
 
 │
 ├── MainActivity.kt # Punto de entrada
+
+
 │
+
 ├── data/
+
 │ ├── model/
+
 │ │ └── Alumno.kt # Entidad Room + enum EstadoAlumno
+
 │ ├── dao/
 │ │ └── AlumnoDao.kt # CRUD + búsqueda + favoritos
 │ └── database/

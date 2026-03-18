@@ -27,21 +27,36 @@ app/src/main/java/com/carevalojesus/alumnosapp/
 │ │ └── Alumno.kt # Entidad Room + enum EstadoAlumno
 
 │ ├── dao/
+
 │ │ └── AlumnoDao.kt # CRUD + búsqueda + favoritos
+
 │ └── database/
+
 │ └── AlumnoDatabase.kt # Singleton Room + TypeConverters
+
 │
 └── ui/
+
 ├── navigation/
+
 │ └── AppNavigation.kt # Rutas de navegación
+
 ├── screens/
+
 │ ├── AlumnoListScreen.kt # Lista principal con búsqueda y filtros
+
 │ ├── AddEditAlumnoScreen.kt # Formulario agregar / editar
+
 │ └── FavoritosScreen.kt # Pantalla de favoritos
+
 ├── viewmodel/
+
 │ └── AlumnoViewModel.kt # Lógica de negocio + StateFlow
+
 └── theme/
+
 ├── Color.kt # Paleta de colores + estados
+
 ├── Theme.kt # Material3 + dynamic color
 └── Type.kt # Tipografía
 

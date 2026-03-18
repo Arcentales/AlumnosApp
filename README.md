@@ -10,6 +10,8 @@ Requisitos previos
 •	SDK mínimo: Android 8.0 (API 26)
 •	SDK objetivo: Android 15 (API 36)
 ________________________________________
+
+
 Estructura del proyecto
 app/src/main/java/com/carevalojesus/alumnosapp/
 │
@@ -36,6 +38,8 @@ app/src/main/java/com/carevalojesus/alumnosapp/
         ├── Color.kt                     # Paleta de colores + estados
         ├── Theme.kt                     # Material3 + dynamic color
         └── Type.kt                      # Tipografía
+
+        
 ________________________________________
 Arquitectura MVVM
 [Vista (Screens)]  <-->  [ViewModel]  <-->  [Room DAO]  <-->  [SQLite]

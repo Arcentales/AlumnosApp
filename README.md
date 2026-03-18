@@ -10,13 +10,6 @@ Requisitos previos
 •	SDK mínimo: Android 8.0 (API 26)
 •	SDK objetivo: Android 15 (API 36)
 ________________________________________
-Cómo ejecutar el proyecto
-1.	Clonar o descomprimir el proyecto
-2.	Abrir la carpeta AlumnosApp en Android Studio
-3.	Esperar a que Gradle sincronice las dependencias
-4.	Conectar un dispositivo físico o iniciar un emulador
-5.	Presionar Run ▶ o Shift + F10
-________________________________________
 Estructura del proyecto
 app/src/main/java/com/carevalojesus/alumnosapp/
 │

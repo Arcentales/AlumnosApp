@@ -12,6 +12,8 @@ Requisitos previos
 ________________________________________
 
 app/src/main/java/com/carevalojesus/alumnosapp/
+
+
 │
 ├── MainActivity.kt # Punto de entrada
 │
